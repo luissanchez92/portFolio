@@ -1,0 +1,40 @@
+.divContainer{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 400px;
+
+}
+
+.img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    overflow: hidden; 
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.hr{
+    width: 900px;
+    background-color: black;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCv{
+    background-color: blue;
+    border: 2px solid black;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
