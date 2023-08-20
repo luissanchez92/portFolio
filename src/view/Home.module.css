@@ -38,3 +38,22 @@
     justify-content: center;
     align-items: center;
 }
+
+.h4icons{
+    width: 60px;
+    height: 50px;
+}
+
+.divContainerIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.linkGit{
+
+}
