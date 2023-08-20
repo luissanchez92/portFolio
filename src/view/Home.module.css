@@ -77,38 +77,7 @@
     font-size: 20px;
 
 }
-.divContainerIcons{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-.h4icons{
-    width: 60px;
-    height: 50px;
-    color:  #f4eeed;
-}
 
-.divContailerUl{
-    display: flex;
-    justify-content: center;
-}
-.li{
-    line-height: 150%;
-    color:  #f4eeed;
-    font-family: "Segoe UI";
-    font-size: 22px;
-
-}
-
-.ulList{
-    column-count: 2;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
 .imgCertficado{
     display: flex;
     width: 500px;

@@ -1,22 +1,14 @@
 import photo from '../assets/2xbrus.jpg'
 import style from './Home.module.css'
 import cv from '../../public/cvljsj.pdf'
-import { PiFileHtmlBold } from 'react-icons/Pi';
-import {  SiJavascript} from 'react-icons/Si';
-import {  LiaReact} from 'react-icons/Lia';
-import {  TbBrandRedux} from 'react-icons/Tb';
-import {  FaNode} from 'react-icons/Fa';
-import {  SiExpress} from 'react-icons/Si';
-import {  SiSequelize} from 'react-icons/Si';
-import {  BiLogoPostgresql} from 'react-icons/Bi';
-import {  SiMysql} from 'react-icons/Si';
-import {  SiVisualstudio} from 'react-icons/Si';
-import {  AiFillGithub} from 'react-icons/Ai';
-import {  BiGitBranch} from 'react-icons/Bi';
-import { AiFillLinkedin } from 'react-icons/Ai';
-import Cards from '../components/Cards';
+import Cards from '../components/cards/Cards';
 import certificate from '../assets/certifcado.png'
-import Malier from '../components/Malier';
+import Malier from '../components/form/Malier';
+import Tech from '../components/tech/Tech';
+import Soft from '../components/soft/Soft';
+import Footer from '../components/footer/Footer';
+import {AiFillGithub} from 'react-icons/Ai';
+import {AiFillLinkedin} from 'react-icons/Ai';
 import {AiOutlineDownload} from 'react-icons/Ai'
 
 
@@ -44,45 +36,13 @@ export const Home = () => {
             <hr className={style.hr}/>
             <h2 className={style.h2}>SOFT SKILLS</h2>
             <p className={style.p}>Soy un profesional con un enfoque centrado en la responsabilidad, la curiosidad y la colaboración. Mi pensamiento lógico y planificación estratégica me permiten abordar desafíos con eficacia, mientras que mi pasión por la innovación me impulsa a encontrar soluciones creativas. Mi habilidad para trabajar en equipo y mantener una actitud positiva fortalece mi capacidad para contribuir significativamente a proyectos conjuntos. Siempre estoy dispuesto a aprender y adaptarme, lo que me permite prosperar en entornos cambiantes.</p>
-            <div className={style.divContailerUl}>
-                <ul className={style.ulList}>
-                    <li className={style.li}>✅Responsabilidad</li>
-                    <li className={style.li}>✅Curiosidad</li>
-                    <li className={style.li}>✅Colaboracion</li>
-                    <li className={style.li}>✅Pensamiento Logico</li>
-                    <li className={style.li}>✅Planificacion</li>
-                    <li className={style.li}>✅Innovacion</li>
-                    <li className={style.li}>✅Trabajo en equipo</li>
-                    <li className={style.li}>✅Positividad</li>
-                    <li className={style.li}>✅Voluntad de Aprender</li>
-                    <li className={style.li}>✅Resolucion de Problemas</li>
-                </ul>
-            </div>
+            <Soft/>
             <hr className={style.hr}/>
             <h2 className={style.h2}>TECH SKILLS</h2>
-            <div>
-                <p className={style.p}>Conociminetos en : HTML5, CSS, JavaScript, ES6, React, Redux, Node.js, Express, Sequelize, PostgreSQL, MySQL, Visual Studio Code, GitHub, Git.</p>
-                <div className={style.divContainerIcons}>
-                    <h4><PiFileHtmlBold className={style.h4icons}/></h4>
-                    <h4><SiJavascript className={style.h4icons}/></h4>
-                    <h4><LiaReact className={style.h4icons}/></h4>
-                    <h4><TbBrandRedux className={style.h4icons}/></h4>
-                    <h4><FaNode className={style.h4icons}/></h4>
-                    <h4><SiExpress className={style.h4icons}/></h4>
-                    <h4><SiSequelize className={style.h4icons}/></h4>
-                    <h4><BiLogoPostgresql className={style.h4icons}/></h4>
-                    <h4><SiMysql className={style.h4icons}/></h4>
-                    <h4><SiVisualstudio className={style.h4icons}/></h4>
-                    <h4><AiFillGithub className={style.h4icons}/></h4>
-                    <h4><BiGitBranch className={style.h4icons}/></h4>
-                </div>
-
-            </div>
+            <Tech/>
             <hr className={style.hr}/>
             <h2 className={style.h2}>PROYECTOS</h2>
-            <div>
-                <Cards/>
-            </div>
+            <Cards/>
             <hr className={style.hr}/>
             <h2 className={style.h2}>CERTIFICADO</h2>
             <div className={style.divContainerCerteficado}>
@@ -92,11 +52,8 @@ export const Home = () => {
             <h2 className={style.h2}>CONTACTAME</h2>
             <Malier/>
             <hr className={style.hr}/>
-            <div>
-                <a href='https://www.linkedin.com/in/ljsj/' className={style.linkGit}><AiFillLinkedin className={style.h4icons}/></a>
-                <a href='https://github.com/luissanchez92'><AiFillGithub className={style.h4icons}/></a>
-                <h5>Luis Sanchez -2023- </h5>
-            </div>
+            <Footer/>
+
         </div>
         
     </>

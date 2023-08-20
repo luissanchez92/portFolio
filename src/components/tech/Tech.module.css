@@ -1,0 +1,22 @@
+.h4icons{
+    width: 60px;
+    height: 50px;
+    color:  #f4eeed;
+}
+
+.p{
+    line-height: 150%;
+    color:  #f4eeed;
+    font-family: "Segoe UI";
+    font-size: 22px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.divContainerIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}

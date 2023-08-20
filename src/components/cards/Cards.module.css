@@ -1,0 +1,5 @@
+.divContainer{
+    display: flex;
+    grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
+    gap: 20px; 
+}

@@ -1,6 +1,7 @@
-import imageShopConnect from '../assets/shopConnect.png'
-import cotizador from '../assets/cotizador.png'
-import Card from './Card'
+import imageShopConnect from '../../assets/shopConnect.png'
+import cotizador from '../../assets/cotizador.png'
+import Card from '../card/Card'
+import style from './Cards.module.css'
 
 const Cards = () => {
     const projects=[
@@ -20,7 +21,7 @@ const Cards = () => {
         }
     ]
     return (
-        <div>
+        <div className={style.divContainer}>
             {projects.map((element, index) => (
                 <Card
                     key={index}
