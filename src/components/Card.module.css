@@ -1,0 +1,15 @@
+.imgProject{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+
+}
+.divCard{
+    display: flex;
+    flex-direction: row;
+}
+.divCardInter{
+    background-color:  #124250;
+    display: flex;
+    flex-direction: row;
+}
