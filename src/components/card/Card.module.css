@@ -1,10 +1,9 @@
 .imgProject{
-  
+    width: 400px;
+    height: 200px;
     object-fit: contain;
-    width: 80%;
-    max-height: 250px; 
-    object-fit: contain;
-    margin-bottom: 10px; 
+    margin-bottom: 4px;
+    margin-left: 140px;
 
 }
 .divCard{
@@ -13,6 +12,7 @@
     background-color: #124250;
     padding: 20px;
     color: white;
+    border: solid white 2px;
 }
 
 .p{
@@ -22,4 +22,16 @@
     font-size: 22px;
     padding-left: 34px;
     padding-right: 34px;
+}
+.h4icons{
+    width: 60px;
+    height: 50px;
+    color:  #f4eeed;
+}
+.h2{
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 22px;
 }

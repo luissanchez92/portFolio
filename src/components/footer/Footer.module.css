@@ -3,3 +3,20 @@
     height: 50px;
     color:  #f4eeed;
 }
+.divContainer{
+    display: flex;
+    flex-direction: row; /* Fila horizontal */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.a{
+
+}
+.h5{
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 22px;
+
+}

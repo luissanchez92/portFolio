@@ -1,0 +1,93 @@
+.divContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-color: #124250;
+    color: white;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    border: solid white 2px;
+}
+.label{
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 30px;
+
+}
+.input{
+    margin-left: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid #121d2a 3px;
+}
+
+.textarea{
+    margin-left: 5px;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid #121d2a 3px;
+}
+.button{
+    background-color: #121d2a;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color:  #f4eeed;
+}
+
+.hr{
+    width: 500px;
+    background-color: black;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+
+.divButton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.span{
+    margin-top: 10px;
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 30px;
+    background-color: green;
+
+}
+.spanE{
+    margin-top: 10px;
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 30px;
+    background-color: red;
+
+}
+.buttonEnabled {
+    background-color: #121d2a;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: #f4eeed;
+}
+
+
+.buttonDisabled {
+    background-color: gray; 
+    opacity: 0.6; 
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: #f4eeed;
+}
