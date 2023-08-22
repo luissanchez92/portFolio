@@ -5,12 +5,14 @@
 }
 .divContainer{
     display: flex;
-    flex-direction: row; /* Fila horizontal */
+    flex-direction: row; 
     justify-content: center;
     align-items: center;
     padding: 20px;
 
 }
+
+
 .a{
 
 }

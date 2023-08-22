@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import emailjs from '@emailjs/browser';
 import style from './Malier.module.css'
 
+
 const Malier = () => {
   const [isEmailSent, setIsEmailSent]=useState(false);
   const [isError, setIsError] = useState(false);
@@ -22,7 +23,7 @@ const Malier = () => {
 
   const handlerSubmit=(event)=>{
     event.preventDefault();
-    emailjs.sendForm('service_kja56jj','template_qhk4bvh', event.target, 'ISeFtAda3M7H47vzF')
+    emailjs.sendForm('service_kja56jj', 'template_qhk4bvh', event.target, 'ISeFtAda3M7H47vzF')
     .then(response=>{
       console.log(response);
       setIsEmailSent(true)
