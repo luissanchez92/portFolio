@@ -12,3 +12,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </BrowserRouter>,
 
 )
+//<link rel="icon" type="image/svg+xml" href="/vite.svg" />

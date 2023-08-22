@@ -1,6 +1,6 @@
 import photo from '../assets/2xbrus.jpg'
 import style from './Home.module.css'
-import cv from '../../public/cvljsj.pdf'
+import cv from '../assets/cvljsj.pdf'
 import Cards from '../components/cards/Cards';
 import certificate from '../assets/certifcado.png'
 import Malier from '../components/form/Malier';

@@ -3,7 +3,8 @@
     height: 200px;
     object-fit: contain;
     margin-bottom: 4px;
-    margin-left: 140px;
+    margin: 0 auto; 
+    display: block;
 
 }
 .divCard{
@@ -34,6 +35,10 @@
     font-family: "Segoe UI";
     color:  #f4eeed;
     font-size: 22px;
+}
+.divIcon{
+    margin: 0 auto; 
+    display: block;
 }
 
 

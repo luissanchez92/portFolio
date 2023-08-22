@@ -9,7 +9,7 @@ const Card = ({image, name, tecnologias, descripcion, repo, vista}) => {
     <div className={style.divCard}>
       <img src={image} className={style.imgProject} alt='imagen del proyecto'/>
       <h2>Nombre: {name}</h2>
-      <div>
+      <div className={style.divIcon}>
         <a href={repo}><AiFillGithub className={style.h4icons}/></a>
         <a href={vista}><AiFillEye className={style.h4icons}/></a>
       </div>
