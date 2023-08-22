@@ -3,7 +3,7 @@ import { PiFileHtmlBold } from 'react-icons/pi';
 import {  SiJavascript} from 'react-icons/si';
 import {  LiaReact} from 'react-icons/lia';
 import {  TbBrandRedux} from 'react-icons/tb';
-import {  FaNode} from 'react-icons/Fa';
+import {  FaNode} from 'react-icons/fa';
 import {  SiExpress} from 'react-icons/si';
 import {  SiSequelize} from 'react-icons/si';
 import {  BiLogoPostgresql} from 'react-icons/bi';
