@@ -7,9 +7,9 @@ import Malier from '../components/form/Malier';
 import Tech from '../components/tech/Tech';
 import Soft from '../components/soft/Soft';
 import Footer from '../components/footer/Footer';
-import {AiFillGithub} from 'react-icons/Ai';
-import {AiFillLinkedin} from 'react-icons/Ai';
-import {AiOutlineDownload} from 'react-icons/Ai'
+import {AiFillGithub} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {AiOutlineDownload} from 'react-icons/ai'
 
 
 

@@ -1,5 +1,5 @@
-import {  AiFillGithub } from 'react-icons/Ai';
-import { AiFillEye } from 'react-icons/Ai';
+import {  AiFillGithub } from 'react-icons/ai';
+import { AiFillEye } from 'react-icons/ai';
 import style from './Card.module.css'
 
 

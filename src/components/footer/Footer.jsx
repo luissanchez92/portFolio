@@ -1,5 +1,5 @@
-import {  AiFillGithub} from 'react-icons/Ai';
-import { AiFillLinkedin } from 'react-icons/Ai';
+import {  AiFillGithub} from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 import style from './Footer.module.css'
 
 const Footer = () => {

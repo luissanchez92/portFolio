@@ -1,16 +1,16 @@
 import style from './Tech.module.css'
-import { PiFileHtmlBold } from 'react-icons/Pi';
-import {  SiJavascript} from 'react-icons/Si';
-import {  LiaReact} from 'react-icons/Lia';
-import {  TbBrandRedux} from 'react-icons/Tb';
+import { PiFileHtmlBold } from 'react-icons/pi';
+import {  SiJavascript} from 'react-icons/si';
+import {  LiaReact} from 'react-icons/lia';
+import {  TbBrandRedux} from 'react-icons/tb';
 import {  FaNode} from 'react-icons/Fa';
-import {  SiExpress} from 'react-icons/Si';
-import {  SiSequelize} from 'react-icons/Si';
-import {  BiLogoPostgresql} from 'react-icons/Bi';
-import {  SiMysql} from 'react-icons/Si';
-import {  SiVisualstudio} from 'react-icons/Si';
-import {  AiFillGithub} from 'react-icons/Ai';
-import {  BiGitBranch} from 'react-icons/Bi';
+import {  SiExpress} from 'react-icons/si';
+import {  SiSequelize} from 'react-icons/si';
+import {  BiLogoPostgresql} from 'react-icons/bi';
+import {  SiMysql} from 'react-icons/si';
+import {  SiVisualstudio} from 'react-icons/si';
+import {  AiFillGithub} from 'react-icons/ai';
+import {  BiGitBranch} from 'react-icons/bi';
 
 const Tech = () => {
   return (
