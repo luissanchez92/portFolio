@@ -1,41 +1,7 @@
 .divFather{
     background-color: #121d2a;
 }
-.divContainer{
-    display: flex;
-    font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
 
-}
-.h1{
-    font-family: "Segoe UI";
-    color: #f4eeed;
-    font-size: 40px;
-}
-
-.img{
-    display: flex;
-    width: 400px;
-    height: 400px;
-    overflow: hidden; 
-    border-radius: 50%;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    border: solid white 2px;
-    margin-left: 20px;
-}
-.a{
-    width: 60px;
-    height: 50px;
-    color:  #f4eeed;
-
-}
 .p{
     line-height: 150%;
     color:  #f4eeed;
@@ -46,7 +12,7 @@
 }
 
 .hr{
-    width: 900px;
+    width: 80%;
     background-color: black;
     height: 5px;
     display: flex;
@@ -55,22 +21,8 @@
     border-radius: 40%;
 }
 
-.buttonCv{
-    background-color: #124250;
-    border: 2px solid rgb(0, 0, 0);
-    width: 200px;
-    font-family: "Segoe UI";
-    font-size: 20px;
-    color:  #f4eeed;
-    margin-top: 5px;
-}
-.cv{
-    color:  #f4eeed;
 
-}
-.iconDownload{
-    color: white;
-}
+
 .h2{
     display: flex;
     justify-content: center;
@@ -79,12 +31,7 @@
     color:  #f4eeed;
     font-size: 36px;
 }
-.h4{
-    font-family: "Segoe UI";
-    color:  #f4eeed;
-    font-size: 20px;
 
-}
 
 .imgCertficado{
     display: flex;

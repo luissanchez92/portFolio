@@ -1,15 +1,11 @@
-import photo from '../assets/2xbrus.jpg'
 import style from './Home.module.css'
-import cv from '../assets/cvljsj.pdf'
 import Cards from '../components/cards/Cards';
 import certificate from '../assets/certifcado.png'
 import Malier from '../components/form/Malier';
 import Tech from '../components/tech/Tech';
 import Soft from '../components/soft/Soft';
 import Footer from '../components/footer/Footer';
-import {AiFillGithub} from 'react-icons/ai';
-import {AiFillLinkedin} from 'react-icons/ai';
-import {AiOutlineDownload} from 'react-icons/ai'
+import Font from '../components/font/Font';
 
 
 
@@ -17,19 +13,7 @@ export const Home = () => {
   return (
     <>
         <div className={style.divFather}>
-            <div className={style.divContainer}>
-                <div>
-                    <h1 className={style.h1}>Hola. Soy</h1>
-                    <h2 className={style.h2}>LUIS SÁNCHEZ</h2>
-                    <h4 className={style.h4}>Desarrollador FullStack</h4>
-                    <h4 className={style.h4}>Buenos Aires-Argentina</h4>
-                    <a href='https://www.linkedin.com/in/ljsj/'><AiFillLinkedin className={style.a}/></a>
-                    <a href='https://github.com/luissanchez92'><AiFillGithub className={style.a}/></a>
-                    <br></br>
-                    <button className={style.buttonCv}><a href={cv} className={style.cv} download>Descargar CV   <AiOutlineDownload className={style.iconDownload}/></a></button>
-                </div>
-                <img src={photo} className={style.img}/>
-            </div>
+            <Font/>
             <hr className={style.hr}/>
             <h2 className={style.h2}>SOBRE MI</h2>
             <p className={style.p}> Hola, soy Luis Sánchez. Anteriormente estudié imagenología en la escuela de tecnología médica, ejercí como técnico en Resonancia Magnética y Tomografía Computarizada 3D durante más de 5 años. La curiosidad por la tecnología y el mundo digital despertó en mí un fuerte interés que me impulsó a seguir estudiando. En mi transición hacia el desarrollo web, he tenido la oportunidad de comprender algunos lenguajes de programación y la evolución de los avances tecnológicos que impactan en todos los ámbitos de nuestras vidas. Además, he adquirido experiencia práctica en esta emocionante disciplina. Ahora, mi objetivo es continuar creciendo y desarrollando mis habilidades para contribuir a crear soluciones digitales innovadoras.</p>

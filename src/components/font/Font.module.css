@@ -1,0 +1,82 @@
+.divContainer{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: auto;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.h1{
+    font-family: "Segoe UI";
+    color: #f4eeed;
+    font-size: 40px;
+}
+
+.img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    overflow: hidden; 
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: solid white 2px;
+    margin-left: 20px;
+
+    @media screen and (max-width: 768px) {
+        margin: 5px;
+    }
+}
+.divProps{
+    @media screen and (max-width: 768px) {
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+
+}
+
+.a{
+    width: 60px;
+    height: 50px;
+    color:  #f4eeed;
+
+}
+.h4{
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 20px;
+
+}
+.buttonCv{
+    background-color: #124250;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color:  #f4eeed;
+    margin-top: 5px;
+}
+.cv{
+    color:  #f4eeed;
+
+}
+.iconDownload{
+    color: white;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI";
+    color:  #f4eeed;
+    font-size: 36px;
+}
