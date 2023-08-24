@@ -8,12 +8,23 @@
     align-items: center;
     padding-top: 20px;
     margin: auto;
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 }
+.divProps{
+    @media screen and (max-width: 768px) {
+        line-height: 100%;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+}
+
 .h1{
     font-family: "Segoe UI";
     color: #f4eeed;
@@ -34,15 +45,10 @@
 
     @media screen and (max-width: 768px) {
         margin: 5px;
+        
     }
 }
-.divProps{
-    @media screen and (max-width: 768px) {
-        line-height: 100%;
-        margin-bottom: 10px;
-    }
 
-}
 
 .a{
     width: 60px;
