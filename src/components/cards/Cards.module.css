@@ -3,13 +3,16 @@
     grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
     gap: 20px;
     justify-items: center;
-    margin: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
 
     @media screen and (max-width: 758px) {
-        flex-direction: column;
-        text-align: center;
         grid-template-columns: 80%;
-        margin: 0 10%;
+        width: 80%;
+        margin: 0 auto; 
+        margin-top: 20px; 
+        margin-bottom: 20px;
     }
 }
 
