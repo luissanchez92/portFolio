@@ -39,18 +39,15 @@
     color:  #f4eeed;
     font-size: 36px;
 }
+.divContainerCertificate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
+}
 .imgCertficado{
     display: flex;
     width: 500px;
     height: 500px;
     object-fit: contain;
-}
-.divContainerCerteficado{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 5px;
-
 }

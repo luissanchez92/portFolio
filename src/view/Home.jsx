@@ -29,9 +29,10 @@ export const Home = () => {
             <Cards/>
             <hr className={style.hr}/>
             <h2 className={style.h2}>CERTIFICADO</h2>
-            <div className={style.divContainerCerteficado}>
-                <img src={certificate} className={style.imgCertficado}></img>
+            <div className={style.divContainerCertificate}>
+              <img src={certificate} className={style.imgCertficado}></img>
             </div>
+        
             <hr className={style.hr}/>
             <h2 className={style.h2}>CONTÁCTAME</h2>
             <Malier/>

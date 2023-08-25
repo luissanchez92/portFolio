@@ -9,6 +9,7 @@
     height: 500px;
     margin: auto;
     border: solid white 2px;
+    margin-bottom: 25px;
 }
 .label{
     font-family: "Segoe UI";

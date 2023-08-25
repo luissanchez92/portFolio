@@ -6,13 +6,15 @@
     margin: 0 auto;
     text-align: center;
     width: 80%;
+    margin-bottom: 25px;
 
     @media screen and (max-width: 758px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
         grid-template-columns: 80%;
         width: 80%;
-        margin: 0 auto; 
-        margin-top: 20px; 
-        margin-bottom: 20px;
     }
 }
 
